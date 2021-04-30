@@ -1,0 +1,26 @@
+.about-box {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+  &__text {
+    &--title {
+      text-transform: uppercase;
+      font-size: 3.5rem;
+      font-weight: 800;
+    }
+    &--content {
+      font-size: 1.6rem;
+      text-align: justify;
+      &:not(:last-child) {
+        margin-bottom: 3rem;
+      }
+    }
+  }
+  &__image {
+    &--1 {
+      margin: 0 auto;
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+}
